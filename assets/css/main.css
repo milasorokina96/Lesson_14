@@ -294,10 +294,10 @@
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
-.clients__logo:nth-child(3n+3) {
+.clients__link:nth-child(3n+3) .clients__logo {
 	margin-right: 0;
 }
-.clients__logo:nth-child(n+4) {
+.clients__link:nth-child(n+4) .clients__logo {
 	margin-bottom: 0;
 }
 .download-wrapper {
@@ -368,7 +368,6 @@
 .contactinfo__title {
 	margin-top: 0;
   	margin-bottom: 13px;
-  	position: relative;
   	font-family: "Arial - Bold MT";
  	font-size: 15px;
   	font-weight: bold;
@@ -376,13 +375,13 @@
 }
 .iconblock__img {
 	float: left;
-	margin-right: 29px;
+	margin-right: 25px;
 	margin-bottom: 25px;
 }
-.iconblock__link:nth-child(3n+4) .iconblock__img {
+.iconblock__link:nth-child(3n+3) img {
 	margin-right: 0;
 }
-.iconblock__link:nth-child(n+5) .iconblock__img {
+.iconblock__link:nth-child(n+4) img {
 	margin-bottom: 0;
 }
 .contactinfo__link,
