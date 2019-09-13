@@ -67,7 +67,7 @@
 	line-height: 2.5em;
 	background-color: rgb(255, 255, 255);
 	border-bottom: 3px solid rgb(42, 172, 200);
-	margin-top: 10px;
+	padding-top: 10px;
 	padding-left: 10px;
 }
 .navigation__iteam:hover > .navigation__sublist {
@@ -164,7 +164,6 @@
   margin-top: 0;
   margin-bottom: 30px;
   max-height: 90px;
-  overflow: auto;
 }
 .services__link {
 	text-decoration: none;
